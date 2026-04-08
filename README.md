@@ -23,6 +23,7 @@ This project is built with production-grade practices: Docker containerization, 
 
 ## 🎥 Demo
 
+You can watch the demo here: [View Demo](https://drive.google.com/drive/folders/1CNaFbuQKqthFmF4LDtYGI-Dl8gyYOGGk?usp=drive_link)
 
 ---
 
@@ -95,7 +96,17 @@ This project is built with production-grade practices: Docker containerization, 
 ---
 
 ## 📸 Screenshots
+- Login Page
+<img width="1920" height="1080" alt="Login Page" src="https://github.com/user-attachments/assets/7ed689b2-6d31-4041-8d6c-89ffac03fd08" />
 
+- Dashboard
+<img width="1920" height="1080" alt="Dashboard" src="https://github.com/user-attachments/assets/3ee34f3a-63d1-48c3-828a-4acd34815a5b" />
+
+- Prometheus
+<img width="1920" height="1080" alt="Prometheus" src="https://github.com/user-attachments/assets/62f3333c-5a9a-4c1d-8f1c-55a7445db87b" />
+
+- Grafana
+<img width="1920" height="1080" alt="Grafana" src="https://github.com/user-attachments/assets/a6a40b45-67d4-426d-ac85-96ee5c4dba05" />
 
 ---
 
