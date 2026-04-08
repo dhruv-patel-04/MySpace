@@ -624,6 +624,12 @@ services:
     volumes:
       - ./prometheus.yml:/etc/prometheus/prometheus.yml
     restart: always
+  
+  node_exporter:
+    image: prom/node-exporter
+    ports:
+      - "9100:9100"
+    restart: always
 ```
 
 **Step 2 - Run Node Exporter (collects CPU, RAM, Disk):**
@@ -649,7 +655,7 @@ global:
 scrape_configs:
   - job_name: 'node_exporter'
     static_configs:
-      - targets: ['<pi-ip>:9100']
+      - targets: ['node_exporter:9100']
 ```
 
 **Step 4 - Start monitoring stack:**
